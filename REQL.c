@@ -296,6 +296,7 @@ PrepareCommandResult do_prepare_command(InputBuffer * inputbuffer,Statement * st
         }
         return table;
  }
+ 
  void free_table(Table* table)
  {
     for(uint32_t i = 0; i < TABLE_MAX_PAGES; i++)
